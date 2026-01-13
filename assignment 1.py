@@ -1,6 +1,4 @@
 #Task1
-from random import random
-
 a = input(' ban ten gi')
 print('xin chao',a)
 
@@ -19,6 +17,7 @@ if a > b:
   print('the perimeter of the circle is', d)
 else:
   print("no value")
+  
 #task4
 a= int(input('first number:'))
 b= int(input('second number:'))
@@ -52,6 +51,7 @@ b4= random.randint(1,6)
 
 print(f"lock 1 is:{a1},{a2},{a3}")
 print(f"lock 2 is:{b1},{b2},{b3},{b4}")
+
 
 
 
