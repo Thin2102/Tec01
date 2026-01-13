@@ -8,14 +8,17 @@ print('xin chao',a)
 a= float(input('radius of the circle:'))
 b = 2*a*3.14
 print ('the circumference of the circle is', round(b))
+
 #task3
 a= float(input('length of the rectangle:'))
 b= float(input('width of the rectangle:'))
-c= (a+b)*2
-d= a*b
-print('the area of the circle is', c)
-print('the perimeter of the circle is', d)
-
+if a > b: 
+  c= (a+b)*2
+  d= a*b
+  print('the area of the circle is', c)
+  print('the perimeter of the circle is', d)
+else:
+  print("no value")
 #task4
 a= int(input('first number:'))
 b= int(input('second number:'))
@@ -49,6 +52,7 @@ b4= random.randint(1,6)
 
 print(f"lock 1 is:{a1},{a2},{a3}")
 print(f"lock 2 is:{b1},{b2},{b3},{b4}")
+
 
 
 
