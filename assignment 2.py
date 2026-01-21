@@ -82,13 +82,14 @@ leapyear()
 def duongkinh():
     a = float(input("enter diameter pizza 1 in centimeters:"))
     b = float(input("enter price pizza 1:"))
-    c = b/a*1000
-    return c
+    c = a/2
+    d = b/((c*c*3.14)/10000)
 def duongkinh2():
     x = float(input("enter diameter pizza 2 in centimeters:"))
     y = float(input("enter price pizza 2:"))
-    z = y/x*1000
-    return z
+    z = x/2
+    g = y/((z*z*3.14)/10000)
+    
 while True:
     try:
         X = duongkinh()
@@ -106,6 +107,7 @@ while True:
             break
     except:
         print('please enter a right value')
+
 
 
 
