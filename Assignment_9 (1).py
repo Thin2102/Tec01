@@ -55,8 +55,6 @@ def calculate_average_score(lines):
     return total / count
 
 
-# ====== CHẠY CHƯƠNG TRÌNH ======
-
 print("1. Non-blank lines:",
       count_non_blank_lines(data))
 
